@@ -2,65 +2,65 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Secondary Wheel"
+      "name": "A"
     },
     {
       "id": 2,
-      "name": "Bike Body Primary"
+      "name": "B"
     },
     {
       "id": 3,
-      "name": "Bike Body Secondary"
+      "name": "C"
     },
     {
       "id": 4,
-      "name": "Screws"
+      "name": "D"
     },
     {
       "id": 5,
-      "name": "Gear_level_4"
+      "name": "E"
     },
     {
       "id": 6,
-      "name": "Primary Gearboc"
+      "name": "F"
     },
     {
       "id": 7,
-      "name": "Primary Wheel"
+      "name": "G"
     },
     {
       "id": 8,
-      "name": "Secondary Gearbox"
+      "name": "H"
     },
     {
       "id": 9,
-      "name": "Axle"
+      "name": "I"
     },
     {
       "id": 10,
-      "name": "Axle plates"
+      "name": "J"
     }
     ,
     {
       "id": 11,
-      "name": "Spring"
+      "name": "K"
     }
     ,
     {
       "id": 12,
-      "name": "Gear Assembly"
+      "name": "L"
     },
     {
       "id": 13,
-      "name": "Gear level_3"
+      "name": "M"
     },
     {
       "id": 14,
-      "name": "Gear level_2"
+      "name": "N"
     },
     {
       "id": 15,
-      "name": "Gear level_1"
+      "name": "O"
     }
   ],
   "links": [
