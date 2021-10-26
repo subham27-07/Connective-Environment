@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs–– -->
+  <meta charset="utf-8">
+  <title>Connective-Environment</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+  <!-- Load d3.js -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+
+  <!-- Create a div where the graph will take place -->
+  <div id="my_dataviz"></div>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/customize.css">
+  <style>
+    #map_1,
+    #map_2,
+    #map_3 {
+      height: 500px;
+    }
+  </style>
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="ten columns">
+      <h2>Connective Environments, Fall 2021</h2>
+      <p>
+        ARCH4050/6306: Tuesdays 2pm-5:15pm
+        <br>
+        Subham Kumar Sah | ssah1@uncc.edu | Dr. Dimitris Papanikolaou | dpapanik@uncc.edu | Urban Synergetics Lab |
+        https://urbansynergeticslab.net
+      </p>
+    </div>
+    <div class="two columns">
+      <a href="https://urbansynergeticslab.net/"><img class="scale-with-grid" src="img/LabLogo_dark_cropped.png"></a>
+    </div>
+  </div>
+
+  <div class="container one-bottom">
+    <div class="row">
+      <a href="index.html">
+        <h3 class="four columns scale-with-grid quarter-bottom-rel">Project 1</h3>
+      </a>
+      <a href="project2.html">
+        <h3 class="four columns scale-with-grid quarter-bottom-rel">Project 2</h3>
+      </a>
+      <a href="project3.html">
+        <h3 class="four columns scale-with-grid quarter-bottom-rel">Project 3</h3>
+      </a>
+
+    </div>
+
+
+  </div>
+
+
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="twelve columns">
+      <h3>Project 1: Reverse Engineering A Mechanically Actuated Toy</h3>
+      <h5>Project 1 was about dismatling toy and take a photo of the disassembled toy and of each part. List and label
+        parts, explain what each part does, and how they
+        function to transfer energy. Also, Create an assembly graph of the toy. Each node is a part (even screws are
+        parts); each link
+        is a structural connection between two parts. </h5>
+
+      <h5>I began the process of disassembling a toy with the intention of understanding its inner mechanisms.
+        The toy which restores energy to move forward. </h5>
+    </div>
+  </div>
+
+
+  <div class="container one-bottom">
+    <h3>Below is the image of the Flywheel-Toy</h3>
+  </div>
+
+  <div class="container one-bottom">
+    <div class="row">
+      <img class="twelve columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/00.png">
+    </div>
+  </div>
+
+
+  <div class="container one-bottom">
+    <h3>Below is an sequence of series of Dismantling of toy</h3>
+  </div>
+
+  <div class="container one-bottom">
+    <div class="row">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/1a.png">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/2a.png">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/3a.png">
+    </div>
+    <div class="row">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/4a.png">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/5a.png">
+      <img class="four columns scale-with-grid quarter-bottom-rel" src="img/Flywheel/6a.png">
+    </div>
+  </div>
+
+
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="twelve columns">
+      <h3>Bike body parts Names</h3>
+      <p>A. Secondary Wheel - Secondary wheels are those which depends on
+        the movement of primary wheels.</p>
+      <p>B. Bike Body Primary - Main structure of the vehicle.</p>
+      <p>C. Bike Body Secondary - Additional parts of the vehicle those which
+        does not necessarily have any function but are there for aesthetics</p>
+      <p>D. Screws have been used attached vehicle parts.</p>
+      <p>E. Gear_level 4 - Grear of level 4 depends on the movements of gear
+        level 3</p>
+      <p>F. Gearbox Primary - Primary gearbox handles the attachments of the
+        all the gears.</p>
+      <p>G. Primary Wheel - Primary Wheels accounts for the movement of the
+        flywheel bike.</p>
+      <p>H. Secondary Gearbox</p>
+      <p>I. Axle - axle holds the gears and the heavy plates to bring down the
+        speed of the vehicle.</p>
+      <p>J. Heavy Axle Plates - Heavy plates bring down the speed of the vehicle.</p>
+      <p>K. Springs - Spring helped in the assembly of the axle, while
+        assembling the gearbox back spring helps in the assembly of axle with
+        the gearbox</p>
+      <p>L. Gear Assembly - This controls the movement of the axle so that
+        axle doesn’t becomes too loose.</p>
+      <p>M. Gear_level 3 - Gear 3 depends on the movements of gear level 2.</p>
+      <p>N. Gear_level 2 -Gear 2 depends on the movements of gear level 1.</p>
+      <p>O. Gear_level 1 -Gear 1 is independent of the movement with rest of
+        the gears but it’s the primary source of producing energy in the vehicle
+        and its movement.</p>
+    </div>
+  </div>
+
+
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="twelve columns">
+      <h3>Links diagram of bike body parts</h3>
+      <iframe width="750" height="345" src="map.html" allowtransparency="true" style="border: none;">
+      </iframe>
+      <h5>Before the toy can be constructed, the primary motor/gears must be configured. Within the motor are four
+        layers that hold
+        the mechanisms in place. An effective way to assemble the toy is to first assemble the gears in primary gear box
+        and then attach the primary gear-box into the secondary gearbox. After that attach the secondary gearbox to bike
+        body parts and screw them.</h5>
+
+      <h5>I began the process of disassembling a toy with the intention of understanding its inner mechanisms.
+        The toy which restores energy to move forward. </h5>
+      <h5>One of the most difficult hurdles I had was
+        rearranging the gears back into place. It took
+        numerous efforts to get the gears back to place and
+        to operate.</h5>
+    </div>
+  </div>
+
+  <!-- FONT 
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="twelve columns">
+      <h3>Connectivity Chart of Bike-body parts</h3>
+      <iframe width="750" height="500" src="heatmap.html" allowtransparency="true" style="border: none;">
+      </iframe>
+
+      <h5>One of the most difficult hurdles I had was
+        rearranging the gears back into place. It took
+        numerous efforts to get the gears back to place and
+        to operate.</h5>
+    </div>
+  </div>
+  -->
+
+
+
+
+  <div class="container one-bottom" style="margin-top: 50px">
+    <div class="twelve columns">
+      <h3>Project 1 part 2 : Gear Simulation</h3>
+      <h5>From the learnins of the dismatling and assembling it back we had to design and present a conceptual 3D model
+        for a mechanically actuated toy where I worked on the design of the gear assembly for a vehicle car. You can see
+        the simulation of vehicle gears in the veideo linked below</h5>
+      <iframe width="800" height="345" src="https://www.youtube.com/embed/c-Skk1A4XmI" allowfullscreen></iframe>
+
+    </div>
+  </div>
+
+
+
+  <div class="container one-bottom">
+    <h2>Team & Contributions</h2>
+    <a><img src="img/subham.png" alt="logoArchitect" class="circular--landscape img"></a>
+    <h3 style="transform: translate(25%, -370%)">Subham Kumar Sah</h3>
+    <h5 style="transform: translate(25%, -450%)">Project 1 was individial porject. All the works shown on the webpage
+      are done by him</h5>
+  </div>
+
+
+
+
+
+  <script>
+
+    L.mapbox.accessToken = 'pk.eyJ1IjoiZGltcCIsImEiOiJkRnlra3RjIn0.E9CTYzNUEx0yb3dcfV4SiA';
+
+    var map_1 = L.mapbox.map('map_1')
+      .setView([40, -74.50], 9)
+      .addLayer(L.mapbox.styleLayer('mapbox://styles/dimp/citf6n01300692hmlxnnrv6wd'));
+    map_1
+      .scrollWheelZoom.disable();
+
+
+    d3.json("https://api.citybik.es/v2/networks/ford-gobike", function (data) {
+      console.log(data);
+
+      var map_2 = L.mapbox.map('map_2')
+        .setView([data.network.location.latitude, data.network.location.longitude], 10)
+        .addLayer(L.mapbox.styleLayer('mapbox://styles/dimp/citf6n01300692hmlxnnrv6wd'));
+      map_2
+        .scrollWheelZoom.disable();
+
+      data.network.stations.forEach(function (station) {
+        station.lat = +station.latitude;
+        station.lng = +station.longitude;
+        var path_options = {
+          radius: 2,
+          color: d3.rgb(88, 206, 227).brighter(),
+          stroke: true,
+          weight: 1,
+        };
+        L.circleMarker([station.latitude, station.longitude], path_options).addTo(map_2);
+      });
+
+      var map_3 = L.mapbox.map('map_3')
+        .setView([data.network.location.latitude, data.network.location.longitude], 11)
+        .addLayer(L.mapbox.styleLayer('mapbox://styles/dimp/ck9mf0x8q3o521iojo2qmmp52'));
+      map_3
+        .scrollWheelZoom.disable();
+
+      data.network.stations.forEach(function (station) {
+        station.lat = +station.latitude;
+        station.lng = +station.longitude;
+        var inventory_level = station.free_bikes / (station.free_bikes + station.empty_slots);
+        var path_options = {
+          radius: 0.14 * (station.free_bikes + station.empty_slots),
+          color: d3.rgb(88, 206, 227).brighter(),
+          fillColor: (function () {
+            return inventory_level > 0.5 ? d3.rgb(88, 206, 227) : d3.rgb(88, 206, 227).darker(2)
+          })(),
+          stroke: true,
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        };
+        L.circleMarker([station.latitude, station.longitude], path_options).addTo(map_3);
+      });
+    });
+
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>
